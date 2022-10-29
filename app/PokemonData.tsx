@@ -1,6 +1,8 @@
 const getPokemon = async (name: string) => {
     const data: any = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`);
-    return data.json();
+    let d = await data.json();
+    console.log(d);
+    return d;
 };
 export interface Pokemon {
     abilities?: AbilitiesEntity[] | null;

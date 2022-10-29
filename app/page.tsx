@@ -1,5 +1,3 @@
-import Comments from './comments/page';
-
 export default function Home() {
     return (
         <div>

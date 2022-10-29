@@ -1,9 +1,3 @@
-import PokePage from './[pokeName]/page';
-
-export default function Pokemons() {
-    return (
-        <>
-            <PokePage />
-        </>
-    );
+export default function Pokemons(params: any) {
+    return <h1>Haka</h1>;
 }
